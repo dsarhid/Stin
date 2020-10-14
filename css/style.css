@@ -22,10 +22,11 @@ body{
 }
 
 .b-detail{
+    position: relative;
     background: url(../img/background-blue2.png);
-    color:white;
     background-position: center;
     background-size: cover;
+    color:white;
     min-height: 2000px;
 }
 
@@ -61,16 +62,17 @@ body{
     height: 100%;
 }
 
-.btn{
+.btn-landing{
     display: inline-block;
     font-weight: bold;
     padding: 10px;
     color: #fff;
-    border: 3px solid #fff;
+    border: 5px solid #fff;
     text-align: center;
     outline: none;
     text-decoration: none;
     transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    font-size: 7;
 }
 
 .img-desc{
